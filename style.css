@@ -94,7 +94,6 @@ footer {
   margin-bottom: 0%;
   margin-top: 1%;
   padding: 0%;
-  font-size: 0.5rem;
 }
 
 .aboutme {
@@ -106,7 +105,6 @@ footer {
     display: flex;
     height: 75%;
     width: auto;
-    height: auto;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -122,4 +120,46 @@ footer {
 
   .aboutme p {
     font-size: 1.5rem;
+    margin: 2%;
+  }
+
+  body, html {
+    height: 100%;
+  }
+
+  
+  
+  .aboutmelinks {
+  
+    background-image: url('images/Dandelions3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 75%;
+    width: auto;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+    color: yellow;
+  }
+
+  .about-banner h1 {
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .aboutmelinks a {
+    font-size: 50px;
+    color: yellow;
+    text-decoration: none;
+    margin: 2%;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: yellow;
   }
