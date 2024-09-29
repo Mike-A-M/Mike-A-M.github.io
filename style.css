@@ -109,6 +109,7 @@ footer {
     align-items: center;
     text-align: center;
     flex-direction: column;
+    margin-top: 10%;
   }
 
   .about-banner h1 {
